@@ -11,7 +11,7 @@ se è dispari stampa il numero successivo.
 */
 
 // variabili
-var result = document.getElementById("result");
+var result = document.getElementById("result-snack2");
 var num;
 
 // validazione input, fino a che il valore inserito non è un numero

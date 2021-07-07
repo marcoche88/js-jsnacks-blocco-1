@@ -13,7 +13,7 @@ Esegui questo programma in due versioni, con il for e con il while.
 // CICLO FOR
 
 // variabili
-var result = document.getElementById("result");
+var result = document.getElementById("result-snack1");
 var userNumber;
 var sumFor = 0;
 

@@ -11,7 +11,7 @@ e una lista di cognomi, Gatsby vuole generare una falsa lista di 3 invitati.
 */
 
 // variabili
-var result = document.getElementById("result");
+var result = document.getElementById("result-snack3");
 var firstNames = ["Luca", "Marco", "Paolo", "Laura", "Giovanni", "Luigi", "Martina"];
 var lastNames = ["Rossi", "Bianchi", "Verdi", "Neri", "Marroni", "Gialli"];
 var firstName = "";
@@ -37,4 +37,4 @@ while (list.length < 3) {
 
 // stampa lista invitati
 console.table(list);
-result.innerHTML = list.join("<br>");
+result.innerHTML = "<br>" + list.join("<br>");

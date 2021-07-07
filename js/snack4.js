@@ -13,7 +13,7 @@ fino a quando ne avrà tanti quanti l’altro.
 */
 
 // variabili
-var result = document.getElementById("result");
+var result = document.getElementById("result-snack4");
 var num1 = [2, 4, 6, 53, 23, 34, 87, 99];
 var num2 = [56, 5, 1];
 var randomNum = 0;
@@ -37,4 +37,4 @@ while (num1.length !== num2.length) {
 // stampa le due liste di uguali lunghezza
 console.table(num1);
 console.table(num2);
-result.innerHTML = "Lista 1: " + num1.join(", ") + "<br>" + "Lista 2: " + num2.join(", ");
+result.innerHTML = "<br>" + "Lista 1: " + num1.join(", ") + "<br>" + "Lista 2: " + num2.join(", ");
