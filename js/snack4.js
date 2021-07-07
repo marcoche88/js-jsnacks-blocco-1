@@ -6,8 +6,9 @@ fino a quando ne avrà tanti quanti l’altro.
 
 /*
 1- creare due liste con lunghezza differente
-2- finchè il numero di elementi delle due liste è differente
-   aggiungere numeri casuali alla lista più corta
+2- finchè il numero di elementi delle due liste è differente:
+   generare numero random, vedere quale lista è la più corta,
+   aggiungere numero randomo alla lista più corta.
 3- stampare le due liste di uguale lunghezza
 */
 
@@ -36,4 +37,4 @@ while (num1.length !== num2.length) {
 // stampa le due liste di uguali lunghezza
 console.table(num1);
 console.table(num2);
-result.innerHTML = num1.join(", ") + "<br>" + num2.join(", ");
+result.innerHTML = "Lista 1: " + num1.join(", ") + "<br>" + "Lista 2: " + num2.join(", ");
