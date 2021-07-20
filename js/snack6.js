@@ -25,6 +25,11 @@ var teams = [
     }
 ];
 
+// ordinare punteggio delle squadre prima di stampare (bonus)
+teams.sort(function (a, b) {
+    return b.points - a.points;
+})
+
 // per ogni squadra stampare tutte le proprietà in una tabella
 for (var i = 0; i < teams.length; i++) {
     var currentTeam = teams[i];
